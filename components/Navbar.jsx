@@ -20,8 +20,8 @@ const Navbar = () => {
         <Image
           src="/../public/assets/kisspng-web-development-software-developer-software-develo-5aebbdc316db90.5684285315253989790936.png"
           alt="/"
-          width="125"
-          height="50"
+          width="80"
+          height="30"
         />
 
         <div>
@@ -67,8 +67,8 @@ const Navbar = () => {
                 <Image
                   src="/../public/assets/kisspng-web-development-software-developer-software-develo-5aebbdc316db90.5684285315253989790936.png"
                   alt="/"
-                  width="85"
-                  height="35"
+                  width="55"
+                  height="20"
                 />
               </div>
               <div
