@@ -16,20 +16,20 @@ const Main = () => {
                 <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
                 
                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursors-pointer hover:scale-125 ease-in duration-300">
-                        <FaLinkedinIn />
+                        <FaLinkedinIn className="text-[#5651e5]"/>
                     </div>
                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursors-pointer hover:scale-125 ease-in duration-300">
-                        <FaGithub />
+                        <FaGithub className="text-[#5651e5]"/>
                     </div>
                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursors-pointer hover:scale-125 ease-in duration-300">
-                        <AiOutlineMail />
+                        <AiOutlineMail className="text-[#5651e5]"/>
                     </div>
                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursors-pointer hover:scale-125 ease-in duration-300">
-                        <BsFillPersonLinesFill />
+                        <BsFillPersonLinesFill className="text-[#5651e5]"/>
                     </div>
                 
                 </div>
-                <div className="flex items-center mt-20 justify-center cursor-pointer ">
+                <div className="flex items-center mt-20 justify-center cursor-pointer hover:scale-125 ease-in duration-300">
                     <Image src="/../public/assets/icons8-flèche-bas-50.png" width="50" height="50"/>
                 </div>
             </div>
