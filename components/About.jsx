@@ -13,23 +13,23 @@ const About = () => {
           <h2 className="py-4">Mon parcours</h2>
           <p className="py-2 text-gray-600">//En reconversion</p>
           <p className="py-2 text-gray-600">
-            Depuis l'âge de 18 ans, j'explore différents domaines d'activités,
+            Depuis l'âge de 18 ans, j'explore différents domaines d'activité,
             cherchant à élargir mes compétences et à découvrir de nouvelles
-            perspectives professionnelles. Toutefois, c'est dans le domaine du
+            perspectives professionnelles. Toutefois, c'est dans le secteur du
             développement web que j'ai trouvé ma véritable passion. Au cours des
             deux dernières années, j'ai entrepris une reconversion pour me
             consacrer pleinement à cette discipline en constante évolution.
             Titulaire d'un bac +2 développeur intégrateur web, je poursuis mes
-            études en bachelor 3 🚨spoiler alert🚨 : toujours dans le dev . Afin
+            études en bachelor 3 🚨spoiler alert🚨 : toujours dans le dev. Afin
             de compléter mon cursus je suis à la recherche d'une alternance pour
             septembre pour une durée de 1 an. Le rythme est de 2 semaines en
-            entreprise et 1 semaine à l'école. À côté de ça je suis toujours
+            entreprise et 1 semaine à l'école. À côté de cela je suis toujours
             développeur à mon compte et je suis toujours à l'écoute de vos
             projets de site vitrines ou de réservation.
           </p>
           <Link href="#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
-              Jetez un coup oeil à mes derniers projets en date
+              Jetez un coup d'oeil à mes derniers projets en date
             </p>
           </Link>
         </div>
