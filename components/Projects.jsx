@@ -3,7 +3,7 @@ import React from "react";
 import pokedexImg from "../public/assets/projects/pokedex.png";
 import retroGamesImg from "../public/assets/projects/retrogames.png";
 import bintageImg from "../public/assets/projects/bintage.png";
-import catherineGImg from "../public/assets/projects/guilmault-catherine.png";
+import catherineImg from "../public/assets/projects/guilmault-catherine.png";
 import Link from "next/link";
 import ProjectItem from "./ProjectItem";
 
@@ -36,7 +36,7 @@ const Projects = () => {
           />
           <ProjectItem
             title="La galerie de Catherine"
-            backgroundImg={catherineGImg}
+            backgroundImg={catherineImg}
             projectUrl="https://guilmault-catherine.fr/"
             description={"Site vitrine d'exposition / WordPress"}
           />
