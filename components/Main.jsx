@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import arrow from "../public/assets/icons8-flèche-bas-50.png"
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
@@ -47,7 +48,7 @@ const Main = () => {
           <Link href="#about">
             <div className="flex items-center mt-20 justify-center cursor-pointer hover:scale-125 ease-in duration-300">
               <Image
-                src="/../public/assets/icons8-flèche-bas-50.png"
+                src={arrow}
                 width="50"
                 height="50"
               />

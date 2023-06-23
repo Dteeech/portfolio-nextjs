@@ -1,4 +1,19 @@
 import Image from "next/image";
+import htmlImage from "../public/assets/skills/icons8-html-48.png";
+import cssImage from "../public/assets/skills/icons8-css-48.png";
+import figmaImage from "../public/assets/skills/icons8-figma-48.png";
+import githubImage from "../public/assets/skills/icons8-github-64.png";
+import jsImage from "../public/assets/skills/icons8-js-48.png";
+import MySQLImage from "../public/assets/skills/icons8-mysql-50.png";
+import netlifyImage from "../public/assets/skills/icons8-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites.-48.png";
+import nodeImage from "../public/assets/skills/icons8-node-js-48.png";
+import reactImage from "../public/assets/skills/icons8-react-100.png";
+import tailwindcssImage from "../public/assets/skills/icons8-tailwindcss-48.png";
+import typescriptImage from "../public/assets/skills/icons8-typescript-48.png";
+import vscodeImage from "../public/assets/skills/icons8-visual-studio-48.png";
+import wordpressImage from "../public/assets/skills/icons8-wordpress-48.png";
+import nextjsImage from "../public/assets/skills/nextjs-icon.png";
+
 import React from "react";
 
 const Skills = () => {
@@ -10,12 +25,11 @@ const Skills = () => {
         </p>
         <h2 className="py-4">Ce que je maîtrise (pour l'instant)</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-        
           <div className="p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto ">
                 <Image
-                  src="/../public/assets/skills/icons8-html-48.png"
+                  src={htmlImage}
                   alt="/"
                   width="48"
                   height="48"
@@ -30,7 +44,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto ">
                 <Image
-                  src="/../public/assets/skills/icons8-css-48.png"
+                  src={cssImage}
                   alt="/"
                   width="48"
                   height="48"
@@ -45,7 +59,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto ">
                 <Image
-                  src="/../public/assets/skills/icons8-figma-48.png"
+                  src={figmaImage}
                   alt="/"
                   width="48"
                   height="48"
@@ -55,11 +69,12 @@ const Skills = () => {
                 <h3>Figma</h3>
               </div>
             </div>
-          </div><div className="p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300">
+          </div>
+          <div className="p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto ">
                 <Image
-                  src="/../public/assets/skills/icons8-js-48.png"
+                  src={jsImage}
                   alt="/"
                   width="48"
                   height="48"
@@ -69,11 +84,12 @@ const Skills = () => {
                 <h3>Javascript</h3>
               </div>
             </div>
-          </div><div className="p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300">
+          </div>
+          <div className="p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto ">
                 <Image
-                  src="/../public/assets/skills/icons8-react-100.png"
+                  src={reactImage}
                   alt="/"
                   width="48"
                   height="48"
@@ -88,7 +104,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto ">
                 <Image
-                  src="/../public/assets/skills/icons8-node-js-48.png"
+                  src={nodeImage}
                   alt="/"
                   width="48"
                   height="48"
@@ -103,7 +119,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto ">
                 <Image
-                  src="/../public/assets/skills/icons8-mysql-50.png"
+                  src={MySQLImage}
                   alt="/"
                   width="48"
                   height="48"
@@ -118,7 +134,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto ">
                 <Image
-                  src="/../public/assets/skills/icons8-typescript-48.png"
+                  src={typescriptImage}
                   alt="/"
                   width="48"
                   height="48"
@@ -133,7 +149,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto ">
                 <Image
-                  src="/../public/assets/skills/icons8-tailwindcss-48.png"
+                  src={tailwindcssImage}
                   alt="/"
                   width="48"
                   height="48"
@@ -148,7 +164,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto ">
                 <Image
-                  src="/../public/assets/skills/icons8-wordpress-48.png"
+                  src={wordpressImage}
                   alt="/"
                   width="48"
                   height="48"
@@ -163,7 +179,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto ">
                 <Image
-                  src="/../public/assets/skills/icons8-github-64.png"
+                  src={githubImage}
                   alt="/"
                   width="48"
                   height="48"
@@ -178,7 +194,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto ">
                 <Image
-                  src="/../public/assets/skills/nextjs-icon.png"
+                  src={nextjsImage}
                   alt="/"
                   width="48"
                   height="48"
@@ -193,7 +209,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto ">
                 <Image
-                  src="/../public/assets/skills/icons8-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites.-48.png"
+                  src={netlifyImage}
                   alt="/"
                   width="48"
                   height="48"
@@ -208,7 +224,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto ">
                 <Image
-                  src="/../public/assets/skills/icons8-visual-studio-48.png"
+                  src={vscodeImage}
                   alt="/"
                   width="48"
                   height="48"

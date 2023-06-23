@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import pokedexImg from "../public/assets/projects/Capture d’écran 2023-06-21 à 22.41.36.png";
+import pokedexImg from "../public/assets/projects/pokedex.png";
 import retroGamesImg from "../public/assets/projects/retrogames.png";
 import bintageImg from "../public/assets/projects/bintage.png";
 import catherineGImg from "../public/assets/projects/guilmault-catherine.png";

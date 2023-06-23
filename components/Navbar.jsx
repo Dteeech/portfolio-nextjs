@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import logo from "../public/assets/kisspng-web-development-software-developer-software-develo-5aebbdc316db90.5684285315253989790936.png";
 import React, { useEffect, useState } from "react";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
@@ -34,7 +35,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="#main">
           <Image
-            src="/../public/assets/kisspng-web-development-software-developer-software-develo-5aebbdc316db90.5684285315253989790936.png"
+            src={logo}
             alt="/"
             width="80"
             height="30"
@@ -75,7 +76,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "md:hidden fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
+              ? "md:hidden fixed z-[100] left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
@@ -84,7 +85,7 @@ const Navbar = () => {
               <div>
                 <Link href="#main">
                   <Image
-                    src="/../public/assets/kisspng-web-development-software-developer-software-develo-5aebbdc316db90.5684285315253989790936.png"
+                    src={logo}
                     alt="/"
                     width="55"
                     height="20"
@@ -103,7 +104,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90] py-4">
-                Des projets, des questions ?{" "}
+                Des projets, des questions ?
                 <span className="text">contactez moi</span>
               </p>
             </div>
@@ -136,8 +137,8 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
-            <div className="pt-40">
-              <p className="uppercase tracking-widest text">
+            <div className="pt-40 z-[100] w-[100%]">
+              <p className="uppercase tracking-widest text z-[100]">
                 Et si on se connectait ?
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
