@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import arrow from "../public/assets/icons8-flèche-bas-50.png"
+import arrow from "../public/assets/icons8-flèche-bas-50.png";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
@@ -9,15 +9,15 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 const Main = () => {
   return (
     <div id="main" className="w-full h-screen text-center">
-      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
+      <div className="max-w-[1240px] w-full h-full mx-auto px-2 sm:px-4 md:px-8 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-600 ">
             Et si on parlait web ?
           </p>
-          <h1 className="py-4 text-gray-700">
+          <h1 className="py-4 text-gray-700 text-xl sm:text-4xl">
             Bonjour, je m'appelle <span className="text-[#5651e5]">Isaac</span>
           </h1>
-          <h2 className="py-4 text-gray-700 animate-typing overflow-hidden whitespace-nowrap font-mono text-2xl font-bold ">
+          <h2 className="py-4 text-gray-700 text-xl sm:text-4xl animate-typing overflow-hidden whitespace-nowrap font-mono text-2xl font-bold ">
             Je suis développeur front-end
           </h2>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
@@ -47,11 +47,7 @@ const Main = () => {
           </div>
           <Link href="#about">
             <div className="flex items-center mt-20 justify-center cursor-pointer hover:scale-125 ease-in duration-300">
-              <Image
-                src={arrow}
-                width="50"
-                height="50"
-              />
+              <Image src={arrow} width="50" height="50" />
             </div>
           </Link>
         </div>

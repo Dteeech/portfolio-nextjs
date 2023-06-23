@@ -32,7 +32,7 @@ const Navbar = () => {
           : "fixed w-full h-20 z-1 bg-[#ecf0f3]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className="flex justify-between items-center w-full h-full px-6 2xl:px-16">
         <Link href="#main">
           <Image src={logo} alt="/" width="80" height="30" />
         </Link>
@@ -71,7 +71,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "md:hidden fixed z-[100] left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
+              ? "md:hidden fixed z-[100] left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-[100%] bg-[#ecf0f3] p-10 ease-in duration-500"
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
@@ -100,7 +100,7 @@ const Navbar = () => {
             <div className="border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90] py-4">
                 Des projets, des questions ?
-                <span className="text">contactez moi</span>
+                <span className="text-[#5651e5]"> contactez moi</span>
               </p>
             </div>
           </div>
@@ -142,17 +142,17 @@ const Navbar = () => {
                   target="_blank"
                 >
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursors-pointer hover:scale-105 ease-in duration-300">
-                    <FaLinkedinIn />
+                    <FaLinkedinIn className="text-[#5651e5]"/>
                   </div>
                 </a>
                 <a href="https://github.com/Dteeech" target="_blank">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursors-pointer hover:scale-105 ease-in duration-300">
-                    <FaGithub />
+                    <FaGithub className="text-[#5651e5]"/>
                   </div>
                 </a>
                 <a href="mailto:isaak.marshall6@gmail.com" target="_blank">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursors-pointer hover:scale-105 ease-in duration-300">
-                    <AiOutlineMail />
+                    <AiOutlineMail className="text-[#5651e5]"/>
                   </div>
                 </a>
               </div>
