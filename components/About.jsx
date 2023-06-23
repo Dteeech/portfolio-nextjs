@@ -22,7 +22,7 @@ const About = () => {
             Titulaire d'un bac +2 développeur intégrateur web, je poursuis mes
             études en bachelor 3 🚨spoiler alert🚨 : toujours dans le dev. Afin
             de compléter mon cursus je suis à la recherche d'une alternance pour
-            septembre pour une durée de 1 an. Le rythme est de 2 semaines en
+            septembre d'une durée de 1 an. Le rythme est de 2 semaines en
             entreprise et 1 semaine à l'école. À côté de cela je suis toujours
             développeur à mon compte et je suis toujours à l'écoute de vos
             projets de site vitrines ou de réservation.
