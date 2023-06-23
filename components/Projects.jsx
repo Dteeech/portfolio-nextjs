@@ -40,7 +40,7 @@ const Projects = () => {
           />
           <ProjectItem
             title="La galerie de Catherine"
-            backgroundImg={catherineImg}
+            backgroundImg={guilmaultImage}
             projectUrl="https://guilmault-catherine.fr/"
             description={"Site vitrine d'exposition / WordPress"}
           />
