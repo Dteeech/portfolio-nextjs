@@ -13,11 +13,9 @@ const ProjectItem = ({ title, backgroundImg, projectUrl, description }) => {
         />
         <div className="hidden py-5 group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
           <h3 className="text-2xl text-white tracking-wider text-center">
-          {title}
+            {title}
           </h3>
-          <p className="text-white text-center py-5 ">
-            {description}
-          </p>
+          <p className="text-white text-center py-5 ">{description}</p>
           <Link href={projectUrl} target="_blank">
             <p className=" text-center rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
               Visiter

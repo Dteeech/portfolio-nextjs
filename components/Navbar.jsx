@@ -34,12 +34,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="#main">
-          <Image
-            src={logo}
-            alt="/"
-            width="80"
-            height="30"
-          />
+          <Image src={logo} alt="/" width="80" height="30" />
         </Link>
 
         <div>
@@ -142,20 +137,20 @@ const Navbar = () => {
                 Et si on se connectait ?
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-              
-              <a href="https://www.linkedin.com/in/isaac-marshall-106660227/" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/isaac-marshall-106660227/"
+                  target="_blank"
+                >
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursors-pointer hover:scale-105 ease-in duration-300">
                     <FaLinkedinIn />
                   </div>
                 </a>
                 <a href="https://github.com/Dteeech" target="_blank">
-
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursors-pointer hover:scale-105 ease-in duration-300">
                     <FaGithub />
                   </div>
                 </a>
                 <a href="mailto:isaak.marshall6@gmail.com" target="_blank">
-
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursors-pointer hover:scale-105 ease-in duration-300">
                     <AiOutlineMail />
                   </div>

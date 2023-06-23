@@ -3,7 +3,7 @@ import React from "react";
 import pokedexImg from "../public/assets/projects/pokedex.png";
 import retroGamesImg from "../public/assets/projects/retrogames.png";
 import bintageImg from "../public/assets/projects/bintage.png";
-import catherineImg from "../public/assets/projects/catherine-guilmault.png";
+import guilmaultImage from "../public/assets/projects/guilmault.png";
 import Link from "next/link";
 import ProjectItem from "./ProjectItem";
 
@@ -26,13 +26,17 @@ const Projects = () => {
             title="Retro_Games"
             backgroundImg={retroGamesImg}
             projectUrl="/retroGames"
-            description={"(Pas encore déployé) E-market de jeux vidéos rétro / React, JS, Node"}
+            description={
+              "(Pas encore déployé) E-market de jeux vidéos rétro / React, JS, Node"
+            }
           />
           <ProjectItem
             title="Bin't'age 2.0"
             backgroundImg={bintageImg}
             projectUrl="https://bint-age.com/"
-            description={"Site de réservation de prestations musicales / WordPress"}
+            description={
+              "Site de réservation de prestations musicales / WordPress"
+            }
           />
           <ProjectItem
             title="La galerie de Catherine"

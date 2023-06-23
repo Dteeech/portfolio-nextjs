@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import profilePic from "../public/assets/profile-pic.png"
+import profilePic from "../public/assets/profile-pic.png";
 const About = () => {
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
@@ -20,12 +20,12 @@ const About = () => {
             deux dernières années, j'ai entrepris une reconversion pour me
             consacrer pleinement à cette discipline en constante évolution.
             Titulaire d'un bac +2 développeur intégrateur web, je poursuis mes
-            études en bachelor 3 🚨spoiler alert🚨 : toujours dans le dev . Afin de compléter mon cursus je suis à la
-            recherche d'une alternance pour septembre pour une durée de 1 an. Le
-            rythme est de 2 semaines en entreprise et 1 semaine à l'école. À
-            côté de ça je suis toujours développeur à mon compte et je suis
-            toujours à l'écoute de vos projets de site vitrines ou de
-            réservation.
+            études en bachelor 3 🚨spoiler alert🚨 : toujours dans le dev . Afin
+            de compléter mon cursus je suis à la recherche d'une alternance pour
+            septembre pour une durée de 1 an. Le rythme est de 2 semaines en
+            entreprise et 1 semaine à l'école. À côté de ça je suis toujours
+            développeur à mon compte et je suis toujours à l'écoute de vos
+            projets de site vitrines ou de réservation.
           </p>
           <Link href="#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
