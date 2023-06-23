@@ -13,11 +13,11 @@ export default function Home() {
       <Head>
         <title>Isaac | développeur web</title>
         <meta name="description" content="" />
-        <link rel="icon" href="/public/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
         <script
           type="text/javascript"
           src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
-        ></script>{" "}
+        ></script>
       </Head>
       <Navbar />
       <Main />
