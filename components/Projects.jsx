@@ -3,7 +3,7 @@ import React from "react";
 import pokedexImg from "../public/assets/projects/pokedex.png";
 import retroGamesImg from "../public/assets/projects/retrogames.png";
 import bintageImg from "../public/assets/projects/bintage.png";
-import catherineImg from "../public/assets/projects/Capture d’écran 2023-06-23 à 16.57.16.png";
+import catherineImg from "../public/assets/projects/catherine-guilmault.png";
 import Link from "next/link";
 import ProjectItem from "./ProjectItem";
 
