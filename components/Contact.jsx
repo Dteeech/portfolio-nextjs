@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <div className="w-full lg:h-screen">
+    <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Contact
@@ -64,6 +64,7 @@ const Contact = () => {
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
+                      name="nom"
                     />
                   </div>
                   <div className="flex flex-col">
@@ -72,7 +73,8 @@ const Contact = () => {
                     </label>
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
-                      type="text"
+                      type="tel"
+                      name="tel"
                     />
                   </div>
                 </div>
@@ -81,6 +83,7 @@ const Contact = () => {
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="email"
+                    name="email"
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -89,7 +92,8 @@ const Contact = () => {
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     rows="10"
                     placeholder
-                    type="email"
+                    type="comment"
+                    name="message"
                   ></textarea>
                 </div>
                 <button className="w-full p-4 text-gray-100 mt-4">

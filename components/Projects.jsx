@@ -9,17 +9,17 @@ import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
   return (
-    <div className="w-full">
+    <div id="projects" className="w-full ">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className=" text-xl tracking-widest uppercase text-[#5651e5] ">
           Projects
         </p>
         <h2 className='"py-4'>What I've Built</h2>
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 -z-50">
           <ProjectItem
             title="Pokedex"
             backgroundImg={pokedexImg}
-            projectUrl="/pokedex"
+            projectUrl="https://rainbow-taffy-29e96d.netlify.app/"
             description={"Pokedex / React, JS, Typescript"}
           />
           <ProjectItem
@@ -31,13 +31,13 @@ const Projects = () => {
           <ProjectItem
             title="Bin't'age 2.0"
             backgroundImg={bintageImg}
-            projectUrl="/bintage"
+            projectUrl="https://bint-age.com/"
             description={"Site de réservation de prestations musicales / WordPress"}
           />
           <ProjectItem
             title="La galerie de Catherine"
             backgroundImg={catherineGImg}
-            projectUrl="/catherineG"
+            projectUrl="https://guilmault-catherine.fr/"
             description={"Site vitrine d'exposition / WordPress"}
           />
         </div>
