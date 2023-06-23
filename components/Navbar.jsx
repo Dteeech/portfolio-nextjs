@@ -44,7 +44,7 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex">
             <Link href="#about">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:border-b ">
                 A propos
               </li>
             </Link>
@@ -104,7 +104,7 @@ const Navbar = () => {
             <div className="border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90] py-4">
                 Des projets, des questions ?{" "}
-                <span className="text-[#5651e5]">contactez moi</span>
+                <span className="text">contactez moi</span>
               </p>
             </div>
           </div>
@@ -137,7 +137,7 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className="pt-40">
-              <p className="uppercase tracking-widest text-[#5651e5]">
+              <p className="uppercase tracking-widest text">
                 Et si on se connectait ?
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">

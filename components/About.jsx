@@ -1,35 +1,45 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const About = () => {
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
-          <p className="uppercase text-xl tracking-widest text-[#5651e5]">A propos</p>
+          <p className="uppercase text-xl tracking-widest text-[#5651e5]">
+            À propos
+          </p>
           <h2 className="py-4">Mon parcours</h2>
           <p className="py-2 text-gray-600">//En reconversion</p>
           <p className="py-2 text-gray-600">
-            "Cupcake ipsum dolor sit amet donut dessert chocolate cake biscuit.
-            Sesame snaps lollipop sesame snaps oat cake carrot cake jelly-o
-            topping. Cookie lemon drops marzipan donut tiramisu powder fruitcake
-            candy I love. Bonbon I love candy canes shortbread pudding. I love
-            pastry donut tiramisu jelly-o. Jelly beans icing I love caramels
-            pastry marzipan. Carrot cake tiramisu jelly-o brownie brownie oat
-            cake. Ice cream wafer chupa chups bear claw I love. Marshmallow
-            cheesecake fruitcake topping gummies brownie shortbread toffee.
-            Macaroon cake apple pie I love lollipop. Bonbon soufflé soufflé
-            sweet cotton candy cake. Danish caramels tart pudding carrot cake
-            brownie halvah sugar plum I love. Oat cake cupcake oat cake jelly-o
-            caramels cake fruitcake liquorice. Powder tiramisu apple pie I love
-            jujubes chocolate. Bear claw danish I love chocolate pudding
-            marzipan chocolate bar."
+            Depuis l'âge de 18 ans, j'explore différents domaines d'activités,
+            cherchant à élargir mes compétences et à découvrir de nouvelles
+            perspectives professionnelles. Toutefois, c'est dans le domaine du
+            développement web que j'ai trouvé ma véritable passion. Au cours des
+            deux dernières années, j'ai entrepris une reconversion pour me
+            consacrer pleinement à cette discipline en constante évolution.
+            Titulaire d'un bac +2 développeur intégrateur web, je poursuis mes
+            études en bachelor 3 🚨spoiler alert🚨 : toujours dans le dev . Afin de compléter mon cursus je suis à la
+            recherche d'une alternance pour septembre pour une durée de 1 an. Le
+            rythme est de 2 semaines en entreprise et 1 semaine à l'école. À
+            côté de ça je suis toujours développeur à mon compte et je suis
+            toujours à l'écoute de vos projets de site vitrines ou de
+            réservation.
           </p>
-          <p className="py-2 text-gray-600 underline cursor-pointer">Jetez un oeil à mes derniers projets en date</p>
+          <Link href="#projects">
+            <p className="py-2 text-gray-600 underline cursor-pointer">
+              Jetez un coup oeil à mes derniers projets en date
+            </p>
+          </Link>
         </div>
         <div className="w-full h-auto m-auto shadow-lg shadow-gray-400 rounded-xl flex items-center justify-center p-4 hovers:scale-105 ease-in duration-300  ">
-          <Image className="rounded-xl" src="/../public/assets/profile-pic (1).png" width="400"
-          height="400"/>
+          <Image
+            className="rounded-xl"
+            src="/../public/assets/profile-pic (1).png"
+            width="400"
+            height="400"
+          />
         </div>
       </div>
     </div>

@@ -84,18 +84,21 @@ const Contact = () => {
                 <p className="uppercase pt8">Mes réseaux👇🏽</p>
 
                 <div className="flex items-center justify-between py-6">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursors-pointer hover:scale-125 ease-in duration-300">
-                    <FaLinkedinIn className="text-[#5651e5]" />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursors-pointer hover:scale-125 ease-in duration-300">
-                    <FaGithub className="text-[#5651e5]" />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursors-pointer hover:scale-125 ease-in duration-300">
-                    <AiOutlineMail className="text-[#5651e5]" />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursors-pointer hover:scale-125 ease-in duration-300">
-                    <BsFillPersonLinesFill className="text-[#5651e5]" />
-                  </div>
+                  <Link target="_blank" href="https://www.linkedin.com/in/isaac-marshall-106660227/">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursors-pointer hover:scale-125 ease-in duration-300">
+                      <FaLinkedinIn className="text-[#5651e5]" />
+                    </div>
+                  </Link>
+                  <Link target="_blank" href="https://github.com/Dteeech">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursors-pointer hover:scale-125 ease-in duration-300">
+                      <FaGithub className="text-[#5651e5]" />
+                    </div>
+                  </Link>
+                  <Link target="_blank" href="mailto:isaak.marshall6@gmail.com">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursors-pointer hover:scale-125 ease-in duration-300">
+                      <AiOutlineMail className="text-[#5651e5]" />
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -113,9 +116,10 @@ const Contact = () => {
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
                       name="name"
-                      value={formValues.name}onChange={(e) =>
-                      setFormValues({ ...formValues, name: e.target.value })
-                    }
+                      value={formValues.name}
+                      onChange={(e) =>
+                        setFormValues({ ...formValues, name: e.target.value })
+                      }
                     />
                   </div>
                   <div className="flex flex-col">
@@ -131,8 +135,8 @@ const Contact = () => {
                       name="tel"
                       value={formValues.tel}
                       onChange={(e) =>
-                      setFormValues({ ...formValues, tel: e.target.value })
-                    }
+                        setFormValues({ ...formValues, tel: e.target.value })
+                      }
                     />
                   </div>
                 </div>

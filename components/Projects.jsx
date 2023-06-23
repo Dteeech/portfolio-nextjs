@@ -12,9 +12,9 @@ const Projects = () => {
     <div id="projects" className="w-full ">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className=" text-xl tracking-widest uppercase text-[#5651e5] ">
-          Projects
+          Projets
         </p>
-        <h2 className='"py-4'>What I've Built</h2>
+        <h2 className='"py-4'>En ligne</h2>
         <div className="grid md:grid-cols-2 gap-8 -z-50">
           <ProjectItem
             title="Pokedex"
@@ -26,7 +26,7 @@ const Projects = () => {
             title="Retro_Games"
             backgroundImg={retroGamesImg}
             projectUrl="/retroGames"
-            description={"E-market de jeux vidéos rétro / React, JS, Node"}
+            description={"(Pas encore déployé) E-market de jeux vidéos rétro / React, JS, Node"}
           />
           <ProjectItem
             title="Bin't'age 2.0"
