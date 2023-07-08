@@ -21,9 +21,8 @@ const Main = () => {
             Je suis développeur front-end
           </h2>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            React et Node sont mes outils de prédilection. Actuellement je suis
-            en recherche d'une alternance pour développer mes compétences de
-            fullstack et de gestion de projet.
+            React et Node sont mes outils de prédilection. Je développe aussi des sites web à l'aide de CMS. Actuellement je suis
+            en alternance chez Passedevant pour développer mes compétences sur le terrain.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
