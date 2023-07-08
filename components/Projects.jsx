@@ -20,7 +20,7 @@ const Projects = () => {
             title="Pokedex"
             backgroundImg={pokedexImg}
             projectUrl="https://rainbow-taffy-29e96d.netlify.app/"
-            description={"Pokedex / React, JS, Typescript"}
+            description={"React, JS, Typescript"}
           />
           <ProjectItem
             title="Retro_Games"

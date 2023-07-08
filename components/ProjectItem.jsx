@@ -9,7 +9,7 @@ const ProjectItem = ({ title, backgroundImg, projectUrl, description }) => {
         <Image
           className=" rounded-xl group-hover:opacity-10"
           src={backgroundImg}
-          alt="/"
+          alt={`extrait du projet ${title}: ${description}`}
         />
         <div className="hidden py-5 group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
           <h3 className="text-2xl text-white tracking-wider text-center">
