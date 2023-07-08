@@ -22,7 +22,7 @@ const Main = () => {
           </h2>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             React et Node sont mes outils de prédilection. Je développe aussi des sites web à l'aide de CMS. Actuellement je suis
-            en alternance chez Passedevant pour développer mes compétences sur le terrain.
+            en alternance chez <a href="https://passedevant.net/?utm_source=googlemb&utm_medium=gmb&utm_campaign=gmb">Passedevant</a> pour développer mes compétences sur le terrain.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
