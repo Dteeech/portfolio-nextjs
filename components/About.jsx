@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import profilePic from "../public/assets/profile-pic.png";
+import profilePic from "../public/assets/Passedevant-Isaac.jpg";
 const About = () => {
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
@@ -11,22 +11,18 @@ const About = () => {
             À propos
           </p>
           <h2 className="py-4">Mon parcours</h2>
-          <p className="py-2 text-gray-600">//En reconversion</p>
+
           <p className="py-2 text-gray-600">
-            Depuis l'âge de 18 ans, j'explore différents domaines d'activité,
-            cherchant à élargir mes compétences et à découvrir de nouvelles
-            perspectives professionnelles. Toutefois, c'est dans le secteur du
-            développement web que j'ai trouvé ma véritable passion. Au cours des
-            deux dernières années, j'ai entrepris une reconversion pour me
-            consacrer pleinement à cette discipline en constante évolution.
-            Titulaire d'un bac +2 développeur intégrateur web, je poursuis mes
-            études en bachelor 3 🚨spoiler alert🚨 : toujours dans le dev. Afin
+            Depuis mes 18 ans, j’ai exploré divers secteurs professionnels, animé par une volonté constante d’apprendre et d’élargir mes compétences. C’est dans le développement web que j’ai finalement trouvé ma voie. Depuis maintenant 4 ans, je me suis reconverti avec passion dans ce domaine en perpétuelle évolution.
+            </p>
+             <p className="py-2 text-gray-600"></p>
+
+            Titulaire d’un Bac+3 en conception, développement et intégration web, je poursuis actuellement mes études en Master 2, avec une spécialisation en gestion de projet digital 🚨spoiler alert🚨 : toujours dans le dev, mais côté pilotage !.. Afin
             de compléter mon cursus je suis à la recherche d'une alternance pour
-            septembre d'une durée de 1 an. Le rythme est de 2 semaines en
-            entreprise et 1 semaine à l'école. À côté de cela je suis toujours
-            développeur à mon compte et je suis toujours à l'écoute de vos
-            projets de site vitrines ou de réservation.
-          </p>
+            septembre d'une durée de 1 an. 
+            <p>Par ailleurs, je continue à exercer en tant que développeur freelance. Je suis toujours disponible pour vous accompagner dans la création de vos sites vitrines, plateformes de réservation ou projets e-commerce.<strong> N’hésitez pas à me contacter !</strong>
+              </p>
+          
           <Link href="#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
               Jetez un coup d'oeil à mes derniers projets en date
