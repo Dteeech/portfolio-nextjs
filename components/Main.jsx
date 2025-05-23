@@ -8,7 +8,7 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 const Main = () => {
   return (
-    <div id="main" className="w-full h-screen text-center">
+    <main id="main" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto px-2 sm:px-4 md:px-8 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-600 ">
@@ -51,7 +51,7 @@ const Main = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

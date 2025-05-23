@@ -55,7 +55,7 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="w-full lg:h-screen">
+    <section id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Contact
@@ -68,7 +68,7 @@ const Contact = () => {
                 <Image
                   src={contactImg}
                   className="rounded-xl hover:scale-105 ease-in duration-300"
-                  alt="/"
+                  alt="image de contact"
                 />
               </div>
               <div className="">
@@ -185,7 +185,7 @@ const Contact = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

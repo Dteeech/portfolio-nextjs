@@ -12,7 +12,10 @@ export default function Home() {
     <div>
       <Head>
         <title>Isaac | développeur web</title>
-        <meta name="description" content="" />
+        <meta name="description" content="Portfolio de Isaac Marshall, développeur full stack spécialisé en React, Node, CMS. Découvrez mes projets et contactez-moi pour vos besoins web." />
+        <meta name="keywords" content="développeur front-end, React, Node, freelance web, portfolio développeur, CMS, Next.js, Tailwind, WordPress"></meta>
+        <meta name="author" content="Isaac Marshall"></meta>
+
         <link rel="icon" href="/favicon.ico" />
         <script
           type="text/javascript"
